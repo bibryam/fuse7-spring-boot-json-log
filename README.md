@@ -2,15 +2,14 @@
 
 This example demonstrates how you can use Apache Camel with Spring Boot and log in JSON for EFK
 
-
 ### Code generation
 Project is generated with the command:
 
-mvn org.apache.maven.plugins:maven-archetype-plugin:2.4:generate \
-  -DarchetypeCatalog=https://maven.repository.redhat.com/earlyaccess/all/io/fabric8/archetypes/archetypes-catalog/2.2.0.fuse-000092-redhat-2/archetypes-catalog-2.2.0.fuse-000092-redhat-2-archetype-catalog.xml \
-  -DarchetypeGroupId=org.jboss.fuse.fis.archetypes \
-  -DarchetypeArtifactId=spring-boot-camel-archetype  \
-  -DarchetypeVersion=2.2.0.fuse-000092-redhat-2
+    mvn org.apache.maven.plugins:maven-archetype-plugin:2.4:generate \
+      -DarchetypeCatalog=https://maven.repository.redhat.com/earlyaccess/all/io/fabric8/archetypes/archetypes-catalog/2.2.0.fuse-000092-redhat-2/archetypes-catalog-2.2.0.fuse-000092-redhat-2-archetype-catalog.xml \
+      -DarchetypeGroupId=org.jboss.fuse.fis.archetypes \
+      -DarchetypeArtifactId=spring-boot-camel-archetype  \
+      -DarchetypeVersion=2.2.0.fuse-000092-redhat-2
 
 
 ### Configuration
